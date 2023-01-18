@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Dark/Night MyAnimeList
 @namespace		cicerakes
-@version		1.0.22
+@version		1.0.23
 @description	A dark/night theme for myanimelist.net.
 @author			cicerakes
 @license		CC-BY-SA-4.0
@@ -1787,6 +1787,16 @@
 
 	.page-forum .forum_postusername a {
 		color: #5378cb;
+	}
+
+	.page-forum .forum-topic-message .message-wrapper .profile {
+	    background-color: #3e3e3e;
+	    border: 1px solid #787878;
+	}
+
+	.page-forum .forum-topic-message .message-wrapper .content {
+	    background-color: #323232;
+	    border: 1px solid #787878;
 	}
 
 	.video-block.episode-video .outside-region .outside-region-block {
